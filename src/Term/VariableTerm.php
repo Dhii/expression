@@ -37,7 +37,8 @@ class VariableTerm extends AbstractBaseValueTerm
     {
         if (!$ctx instanceof CompositeContextInterface) {
             throw $this->_createEvaluationException(
-                sprintf('Given context is not a composite context. %s given.', get_class($ctx))
+                sprintf('Given context is not a composite context. %s given.',
+                    is_null($ctx)? 'null' : get_class($ctx))
             );
         }
 
