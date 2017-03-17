@@ -14,9 +14,9 @@ class ValueContext extends AbstractBaseValueContext
      *
      * @since [*next-version*]
      *
-     * @param mixed $value The new context value.
+     * @param mixed $value The new context value. Default: null
      */
-    public function __construct($value)
+    public function __construct($value = null)
     {
         $this->_setValue($value);
     }
