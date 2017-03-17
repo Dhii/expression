@@ -4,6 +4,7 @@ namespace Dhii\Expression\Context;
 
 use ArrayAccess;
 use Countable;
+use Dhii\Expression\CompositeContextInterface;
 use Iterator;
 
 /**
@@ -11,7 +12,11 @@ use Iterator;
  *
  * @since [*next-version*]
  */
-class ArrayContext extends AbstractBaseCompositeContext implements ArrayAccess, Iterator, Countable
+class ArrayContext extends AbstractBaseCompositeContext implements
+    CompositeContextInterface,
+    ArrayAccess,
+    Iterator,
+    Countable
 {
     /**
      * Constructor.
