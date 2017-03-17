@@ -2,12 +2,14 @@
 
 namespace Dhii\Expression\Context;
 
+use Dhii\Expression\ContextInterface;
+
 /**
  * A context implementation that simply provides a preset context value.
  *
  * @since [*next-version*]
  */
-class ValueContext extends AbstractBaseValueContext
+class ValueContext extends AbstractBaseValueContext implements ContextInterface
 {
     /**
      * Constructor.
