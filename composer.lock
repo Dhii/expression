@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f742369c92eec01ddb72e64083d0944",
+    "content-hash": "8eb17f9a6140b9958c5641a7f94ead68",
     "packages": [
         {
             "name": "dhii/data-key-value-aware-interface",
@@ -139,16 +139,16 @@
         },
         {
             "name": "dhii/expression-base",
-            "version": "dev-develop",
+            "version": "dev-task/initial-classes",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Dhii/expression-base.git",
-                "reference": "38c9c2ace7da3a429f2191924c996628b905faef"
+                "reference": "3a47db82c0120e09d8b4c04d5857e3c3fc6397d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Dhii/expression-base/zipball/38c9c2ace7da3a429f2191924c996628b905faef",
-                "reference": "38c9c2ace7da3a429f2191924c996628b905faef",
+                "url": "https://api.github.com/repos/Dhii/expression-base/zipball/3a47db82c0120e09d8b4c04d5857e3c3fc6397d3",
+                "reference": "3a47db82c0120e09d8b4c04d5857e3c3fc6397d3",
                 "shasum": ""
             },
             "require": {
@@ -178,10 +178,10 @@
             ],
             "description": "Base concrete classes for expressions.",
             "support": {
-                "source": "https://github.com/Dhii/expression-base/tree/develop",
+                "source": "https://github.com/Dhii/expression-base/tree/task/initial-classes",
                 "issues": "https://github.com/Dhii/expression-base/issues"
             },
-            "time": "2017-03-17 12:05:12"
+            "time": "2017-03-17 14:46:04"
         },
         {
             "name": "dhii/expression-interface",
